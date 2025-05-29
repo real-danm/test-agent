@@ -1,3 +1,7 @@
-livekit-agents>=0.11.1
-livekit-plugins-deepgram>=0.6.9
+livekit-agents[openai,silero,deepgram,cartesia,turn-detector,elevenlabs]~=1.0rc
+livekit-plugins-noise-cancellation~=0.2.0
 python-dotenv~=1.0
+soundfile~=0.12.1
+numpy~=1.26
+supabase~=2.4
+aiohttp
